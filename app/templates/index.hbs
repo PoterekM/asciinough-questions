@@ -4,5 +4,5 @@
 <h4>Here are some questions:</h4>
 
 {{#each model as |question|}}
-     <li>{{question.title}} by {{question.username}}</li>
-  {{/each}}
+  {{question-tile question=question}}
+{{/each}}
