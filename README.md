@@ -3,6 +3,30 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Planning
+### Program Requirements
+* Questions should include the content of the question itself, an author, and additional notes.
+* Answers should include the content of the answer and the author.
+* Include a header and/or navbar that appears on all pages. It should contain the name of your site and a link to the home page, and other content such as social media, LinkedIn, etc.
+* List all questions on the homepage, displaying only the question and the name of the author.
+* Allow users to click a question, to be routed to another page containing additional information and question details.
+* Allow users to add and edit questions.
+* Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+
+### Development Work Flow
+* Start with creating routes (about, FAQ, Admin, home) and display them in a navigation bar so it is easy to traverse webpage when developing.
+* Build out index that will include:
+  * questions
+    * each question will be a link will display the username and title. A user will click on it to view a full question detail (move on to a question detail that will display full question)
+  * a button to add a new question.
+    * This will be a conditional statement for a form to appear when clicked. When saved this new question will display on the home page.
+* Build out individual question page.
+  * This will display the username, title, category, and body of the question.
+  * Add ability to update or delete a question.
+* Add a model for answers that will include username, level, and feedback.
+  * once this is complete, a form to leave an answer will be available on an individual question page.
+  * Add ability to update or delete an answer.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
