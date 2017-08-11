@@ -34,7 +34,7 @@ You will need the following things properly installed on your computer.
 * Allow users to add and edit questions.
 * Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
-#### Development Work Flow
+#### 3. Development Work Flow
 * Start with creating routes (about, FAQ, Admin, home) and display them in a navigation bar so it is easy to traverse webpage when developing.
 * Build out index that will include:
   * questions
