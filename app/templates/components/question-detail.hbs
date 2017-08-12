@@ -1,2 +1,10 @@
 {{question.title}} by {{question.username}}
 <p>{{question.body}}</p>
+
+
+<h2> answers </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
