@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('faq');
   this.route('admin');
+  this.route('question');
 });
 
 export default Router;
