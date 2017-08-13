@@ -7,12 +7,3 @@
 {{#each model.questions as |question|}}
   {{question-tile question=question}}
 {{/each}}
-
-
-
-<h2>All Answers</h2>
-<ul>
-{{#each model.answers as |answer|}}
-<li>{{answer.answer}} from {{answer.name}} {{answer.level}} </li>
-{{/each}}
-</ul>
