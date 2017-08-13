@@ -6,9 +6,21 @@
       <label for="username">username</label>
       {{input value=username id="username" placeholder=question.username}}
     </div>
+    <div class="form-group">
+      <label for="title">title</label>
+      {{input value=title id="title" placeholder=question.title}}
+    </div>
+    <div class="form-group">
+      <label for="category">category</label>
+      {{input value=category id="category" placeholder=question.category}}
+    </div>
+    <div class="form-group">
+      <label for="body">body</label>
+      {{textarea value=body id="body" placeholder=question.body}}
+    </div>
     <button {{action 'update' question}}>Save</button>
   </form>
 </div>
 {{else}}
-<button {{action 'updateQuestionForm'}}>Update</button>
+<button {{action 'updateQuestionForm'}}>Update Question</button>
 {{/if}}
