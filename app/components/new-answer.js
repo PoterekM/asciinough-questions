@@ -8,9 +8,9 @@ export default Ember.Component.extend({
     },
     saveAnswer() {
      var params = {
-       name: this.get('name'),
-       level: this.get('level'),
-       answer: this.get('answer'),
+       name: this.get('name') ? this.get('name') : "Anonymous",
+       level: this.get('level') ? this.get('level') : "unknown",
+       answer: this.get('answer') ? this.get('answer') : " ",
        question: this.get('question')
      };
      this.set('addNewAnswer', false);
