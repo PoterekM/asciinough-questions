@@ -14,6 +14,9 @@ export default Ember.Component.extend({
        question: this.get('question')
      };
      this.set('addNewAnswer', false);
+     this.set('name', "");
+     this.set('level', "");
+     this.set('answer', "");
      this.sendAction('saveAnswer', params);
    }
   }
