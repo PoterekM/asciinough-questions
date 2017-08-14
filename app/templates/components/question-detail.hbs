@@ -1,12 +1,3 @@
-{{question.title}} by {{question.username}}
-<p>{{question.body}}</p>
-<!-- <button {{action 'update' question}}>Update Question</button> -->
-<button {{action 'delete' question}}>Delete question</button>
-
-
-<!-- <h2> answers </h2>
-<ul>
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul> -->
+  {{question.title}} by {{question.username}}
+  <p>{{question.body}}</p>
+  <button {{action 'delete' question}}>Delete question</button>

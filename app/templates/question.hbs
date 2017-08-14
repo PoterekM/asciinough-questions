@@ -1,7 +1,5 @@
-
-{{update-question question=model update="update"}}
 {{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
-<!-- {{question-detail question=question destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}} -->
+{{update-question question=model update="update"}}
 
 <h2> answers </h2>
 {{new-answer saveAnswer="saveAnswer" question=model}}
@@ -10,6 +8,5 @@
     {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
-
 
 <!-- had to change each question.answers to model.answers. -->

@@ -1,0 +1,33 @@
+.jumbotron {
+  overflow: hidden;
+  text-align: center;
+  background-color: #1B998B;
+  color: white;
+}
+
+.jumbotron img {
+  float: left;
+  max-height: 30%;
+  max-width: 30%;
+  padding: 15px;
+  margin: 10px;
+}
+
+body {
+  font-family: cambria;
+  background-color: #2D3047;
+  color: #E84855;
+}
+
+.questions {
+  padding: 4px;
+}
+
+.well {
+  background-color: #1B998B;
+  color: white;
+}
+
+.addquestion {
+  color: #FF9B71;
+}
