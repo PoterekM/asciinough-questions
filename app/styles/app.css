@@ -4,6 +4,7 @@
   background-color: #1B998B;
   color: white;
   background-repeat: no-repeat;
+  /*opacity: .3;*/
   /*background-size: cover;*/
   /*max-height: 30%;*/
 }
@@ -16,7 +17,7 @@
 
 body {
   font-family: cambria;
-  background-color: #2D3047;
+  background-color: #012E36;
   color: #E84855;
 }
 
@@ -26,9 +27,14 @@ body {
 
 .well {
   background-color: #1B998B;
-  color: #E84855;
+  color: #012E36;
 }
 
 .addquestion {
-  color: #FF9B71;
+  background-color: #1B998B;
+  color: #012E36;
+}
+
+.unstyled {
+  list-style: none;
 }
