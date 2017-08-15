@@ -3,14 +3,15 @@
   text-align: center;
   background-color: #1B998B;
   color: white;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*max-height: 30%;*/
 }
 
 .jumbotron img {
-  float: left;
-  max-height: 30%;
-  max-width: 30%;
-  padding: 15px;
-  margin: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
 }
 
 body {
